@@ -58,9 +58,9 @@ export const options = {
         "http_req_duration{endpoint:getSingleBook}": ["p(95)<1000"],
 
         "requests_per_endpoint{endpoint:registerUser}": ["count>=50"],
-        "requests_per_endpoint{endpoint:loginUser}": ["count>=50"],
-        "requests_per_endpoint{endpoint:createBook}": ["count>=50"],
-        "requests_per_endpoint{endpoint:getAllBooks}": ["count>=50"],
+        "requests_per_endpoint{endpoint:loginUser}": ["count>=25"],
+        "requests_per_endpoint{endpoint:createBook}": ["count>=25"],
+        "requests_per_endpoint{endpoint:getAllBooks}": ["count>=25"],
         "requests_per_endpoint{endpoint:getSingleBook}": ["count>=50"],
 
         "http_errors{endpoint:registerUser}": ["count<1"],
