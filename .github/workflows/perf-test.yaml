@@ -35,7 +35,7 @@ jobs:
         uses: grafana/run-k6-action@v1
         with:
           path: tests-k6/test.js
-          flags: --out json=k6-results.json
+          flags: --out json=tests-k6/k6-results.json
 
       - name: Upload results
         uses: actions/upload-artifact@v4
