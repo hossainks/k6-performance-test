@@ -36,7 +36,7 @@ tests-k6/
 │
 │── utils/                 # Utilities & helpers
 │   ├── randomString.js
-│   ├── metrics.js         # Custom error counters & metrics
+│   ├── ranrandomData.js         # Custom error counters & metrics
 │   └── config.js
 │
 │── test.js                # Main entry point with scenarios & setup
