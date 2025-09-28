@@ -40,6 +40,7 @@ tests-k6/
 │   └── config.js
 │
 │── test.js                # Main entry point with scenarios & setup
+|── config.js     
 ```
 
 ---
