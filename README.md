@@ -151,7 +151,7 @@ requests_per_endpoint{endpoint:registerUser}
 📊 HTML Report with Screenshots
 -------------------------------
 
-In addition to the CLI output, an **HTML report** is generated after the test run.  
+Besides the CLI output, you can also generate an HTML report after the test run by enabling the reporting option.  
 This file is saved as `summary.html` in your k6 project directory.
 
 To view the report:
