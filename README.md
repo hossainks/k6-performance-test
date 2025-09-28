@@ -169,6 +169,12 @@ Default K6 HTML Report:
 Custom Thresholds Report:
 ![K6 Custom Report](docs/images/k6-sample-custom.png)
 
+---
+
+## 🚀 CI/CD Integration
+This project is integrated with **GitHub Actions** to automatically run K6 performance tests in the CI/CD pipeline.  
+Test results (JSON and HTML reports) are uploaded as workflow artifacts for easy review.
+
 
 ---
 
