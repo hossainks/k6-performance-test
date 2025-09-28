@@ -113,7 +113,7 @@ export const options = {
    k6 run tests-k6/test.js
    ```
 
-5. View results in console or integrate with **Prometheus + Grafana** for dashboards.
+5. View results in console or integrate with **Influxdb + Grafana** for dashboards.
 
 ---
 
