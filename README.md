@@ -92,6 +92,7 @@ export const options = {
    git clone https://github.com/hossainks/k6-performance-test.git
    ```
 2. Start the Application with Docker
+   
    The repository includes a `docker-compose.yml` file to spin up the backend locally.
 
    ```sh
