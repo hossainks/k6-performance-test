@@ -86,20 +86,33 @@ export const options = {
 
 ## 🚀 How to Run
 
-1. Install k6
+1. Clone the Repository
+
+   ```sh
+   git clone https://github.com/hossainks/k6-performance-test.git
+   ```
+2. Start the Application with Docker
+   The repository includes a `docker-compose.yml` file to spin up the backend locally.
+
+   ```sh
+   docker compose up -d --build
+   ```
+   This will start the application at `http://localhost:3000`
+
+3. Install k6
 
    ```sh
    brew install k6   # macOS
    choco install k6  # Windows
    ```
 
-2. Run the test
+4. Run the test
 
    ```sh
    k6 run tests-k6/test.js
    ```
 
-3. View results in console or integrate with **Prometheus + Grafana** for dashboards.
+5. View results in console or integrate with **Prometheus + Grafana** for dashboards.
 
 ---
 
