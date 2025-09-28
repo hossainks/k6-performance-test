@@ -47,14 +47,14 @@ tests-k6/
 
 ## ⚡ Key Features
 
-✔ **Modular design** – Flows, services, and utilities separated
-✔ **Health check before load** – Prevents wasted execution if app is down
-✔ **Multiple scenarios** – Run register, login, create, and get flows in parallel
-✔ **Thresholds per endpoint** – Enforces SLAs automatically
-✔ **Error tracking with counters** – Records errors per endpoint
-✔ **Custom tagging** – Attribute metrics by endpoint/service
-✔ **Extensible** – Add new flows & services without breaking existing ones
-✔ **CI/CD ready** – Designed for automation in GitHub Actions/Jenkins
+* **Modular design** – Flows, services, and utilities separated
+* **Health check before load** – Prevents wasted execution if app is down
+* **Multiple scenarios** – Run register, login, create, and get flows in parallel
+* **Thresholds per endpoint** – Enforces SLAs automatically
+* **Error tracking with counters** – Records errors per endpoint
+* **Custom tagging** – Attribute metrics by endpoint/service
+* **Extensible** – Add new flows & services without breaking existing ones
+* **CI/CD ready** – Designed for automation in GitHub Actions/Jenkins
 
 ---
 
