@@ -107,16 +107,29 @@ export const options = {
 
 ```
 checks{endpoint:registerUser}
-✓ 'Register - 201' 100.00% ✓ 200 / ✗ 0
+    ✓ 'rate>=0.99' rate=100.00%
 
-http_req_duration{endpoint:registerUser}
-✓ 'p(95)<1000' p(95)=312.12ms
+checks{endpoint:createBook}
+    ✓ 'rate>=0.99' rate=100.00%
 
-http_errors{endpoint:registerUser}
-✓ 'count==0' count=0
+http_req_duration{endpoint:createBook}
+    ✓ 'p(95)<1000' p(95)=9.52ms
 
-http_req_duration{endpoint:loginUser}
-✓ 'p(95)<1000' p(95)=284.55ms
+http_req_duration{endpoint:getAllBooks}
+    ✓ 'p(95)<1000' p(95)=10.97ms
+
+http_errors{endpoint:createBook}
+    ✓ 'count<1' count=0
+
+http_errors{endpoint:getAllBooks}
+    ✓ 'count<1' count=0
+
+requests_per_endpoint{endpoint:loginUser}
+    ✓ 'count>=50' count=127
+
+requests_per_endpoint{endpoint:registerUser}
+    ✓ 'count>=50' count=234
+
 ```
 
 ---
