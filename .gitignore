@@ -3,3 +3,4 @@ reports/
 book-server.yaml
 mongodb.yaml
 tests-k6/userFlow.js
+tests-k6/summary.html

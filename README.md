@@ -117,7 +117,7 @@ export const options = {
 
 ---
 
-## 🖥️ Example Output
+## 🖥️ Example Output (CLI)
 
 ```
 checks{endpoint:registerUser}
@@ -145,6 +145,30 @@ requests_per_endpoint{endpoint:registerUser}
     ✓ 'count>=50' count=234
 
 ```
+
+---
+
+📊 HTML Report with Screenshots
+-------------------------------
+
+In addition to the CLI output, an **HTML report** is generated after the test run.  
+This file is saved as `summary.html` in your k6 project directory.
+
+To view the report:
+```bash
+k6 run test.js
+open summary.html   # Mac
+start summary.html  # Windows
+```
+
+### Example HTML Report Screenshots
+
+Default K6 HTML Report:
+![K6 Sample Report](docs/images/k6-sample.png)
+
+Custom Thresholds Report:
+![K6 Custom Report](docs/images/k6-sample-custom.png)
+
 
 ---
 
