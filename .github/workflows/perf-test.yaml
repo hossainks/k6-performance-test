@@ -4,11 +4,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-  workflow_call: # makes this workflow reusable
-    inputs:
-      test_file:
-        required: true
-        type: string
+  repository_dispatch:
+    types: [run-k6-tests]
 jobs:
   k6-test:
     runs-on: ubuntu-latest
