@@ -1,5 +1,5 @@
 import exec from 'k6/execution';
-// import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 import { checkHealth } from './services/healthService.js';
 import registerUserFlow from './flows/registerUserFlow.js';
 import loginUserFlow from './flows/loginUserFlow.js';
@@ -80,8 +80,8 @@ export const options = {
 export { registerUserFlow, loginUserFlow, createBookFlow, getAllBooksFlow, getBooksFlow };
 
 // For Html Report Generation
-/* export function handleSummary(data) {
+export function handleSummary(data) {
     return {
         "summary.html": htmlReport(data),
     };
-} */
+}
